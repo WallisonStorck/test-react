@@ -3,6 +3,8 @@ import { useState } from "react";
 function Count() {
   const [count, setCount] = useState(0);
 
+  // const teste = 0;
+
   function Incrementar() {
     setCount(count + 1);
   }
